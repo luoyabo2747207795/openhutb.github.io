@@ -1,0 +1,20 @@
+<launch>
+  <!-- 1. 启动 turtlesim 仿真环境(小车画布) -->
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"
+        output="screen" respawn="true"/>
+
+  <!-- 2. 启动控制器:接收目标,驱动小车移动 -->
+  <node pkg="turtle_drawer" type="move_to_goal.py" name="move_to_goal"
+        output="screen">
+    <!-- 可通过参数微调控制效果 -->
+    <param name="lin_gain" value="1.5"/>
+    <param name="ang_gain" value="4.0"/>
+  </node>
+
+  <!-- 3. arg 控制画什么图形;用 launch 传参: roslaunch turtle_drawer demo.launch shape:=spiral -->
+  <arg name="shape" default="spiral"/>
+  <node pkg="turtle_drawer" type="draw_shape.py" name="draw_shape"
+        output="screen">
+    <param name="shape" value="$(arg shape)"/>
+  </node>
+</launch>

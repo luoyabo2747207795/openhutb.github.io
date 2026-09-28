@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" font-family="Segoe UI, Arial, sans-serif">
+<rect width="840" height="560" fill="#fbfaf8"/>
+<rect x="105.0" y="70.0" width="210" height="80" rx="12" fill="#ffffff" stroke="#c8c3ba" stroke-width="1.5"/>
+<text x="210" y="104" text-anchor="middle" font-size="17" font-weight="700" fill="#37474f">draw_shape</text>
+<text x="210" y="126" text-anchor="middle" font-size="11.5" fill="#90a4ae">规划器 · 决定去哪儿</text>
+<rect x="115.0" y="213.0" width="190" height="34" rx="17" fill="#e8f5ee" stroke="#00796b" stroke-width="1.5"/>
+<text x="210" y="228" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00796b">/turtle_drawer/goal</text>
+<text x="210" y="243" text-anchor="middle" font-size="9" fill="#90a4ae">自定义消息 Goal</text>
+<rect x="95.0" y="317.0" width="230" height="86" rx="12" fill="#ffffff" stroke="#c8c3ba" stroke-width="1.5"/>
+<text x="210" y="354" text-anchor="middle" font-size="17" font-weight="700" fill="#37474f">move_to_goal</text>
+<text x="210" y="376" text-anchor="middle" font-size="11.5" fill="#90a4ae">控制器 · 决定怎么走</text>
+<rect x="110.0" y="463.0" width="200" height="34" rx="17" fill="#e8f5ee" stroke="#37474f" stroke-width="1.5"/>
+<text x="210" y="478" text-anchor="middle" font-size="11.5" font-weight="700" fill="#37474f">/turtle1/cmd_vel</text>
+<text x="210" y="493" text-anchor="middle" font-size="9" fill="#90a4ae">Twist · 线/角速度</text>
+<defs><marker id="am1" markerWidth="9" markerHeight="9" refX="6" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#00796b"/></marker></defs>
+<line x1="210" y1="150" x2="210" y2="213" stroke="#00796b" stroke-width="2.4" marker-end="url(#am1)"/>
+<rect x="194.0" y="172.5" width="32" height="18" rx="6" fill="#ffffff" stroke="#e0e0e0"/>
+<text x="210.0" y="185.5" text-anchor="middle" font-size="10" fill="#00796b" font-weight="600">pub</text>
+<defs><marker id="am2" markerWidth="9" markerHeight="9" refX="6" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#00796b"/></marker></defs>
+<line x1="210" y1="247" x2="210" y2="317" stroke="#00796b" stroke-width="2.4" marker-end="url(#am2)"/>
+<defs><marker id="am3" markerWidth="9" markerHeight="9" refX="6" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#00796b"/></marker></defs>
+<line x1="210" y1="403" x2="210" y2="463" stroke="#00796b" stroke-width="2.4" marker-end="url(#am3)"/>
+<rect x="194.0" y="424.0" width="32" height="18" rx="6" fill="#ffffff" stroke="#e0e0e0"/>
+<text x="210.0" y="437.0" text-anchor="middle" font-size="10" fill="#00796b" font-weight="600">pub</text>
+<rect x="520" y="340" width="250" height="200" rx="12" fill="#eef3f2" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="645.0" y="320" text-anchor="middle" font-size="13" fill="#90a4ae">仿真环境</text>
+<circle cx="645.0" cy="425" r="52" fill="none" stroke="#00796b" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="645.0" y="422" text-anchor="middle" font-size="14" font-weight="600" fill="#37474f">turtlesim</text>
+<text x="645.0" y="442" text-anchor="middle" font-size="10.5" fill="#90a4ae">小车行走 · 画布 0~11</text>
+<g transform="rotate(30 645.0 425)"><polygon points="642.0,423.8 643.8,421.8 647.2,422.8 648.4,426.6 645.6,428.4 642.4,427.2" fill="#26a69a" stroke="#004d40" stroke-width="1"/><polygon points="644.2,421.4 645.8,421.4 645.0,418.4" fill="#00796b" stroke="#004d40" stroke-width="1"/></g>
+<rect x="290.0" y="411.0" width="160" height="34" rx="17" fill="#e8f5ee" stroke="#00796b" stroke-width="1.5"/>
+<text x="370" y="426" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00796b">/turtle1/pose</text>
+<text x="370" y="441" text-anchor="middle" font-size="9" fill="#90a4ae">Pose · x y θ</text>
+<defs><marker id="am4" markerWidth="9" markerHeight="9" refX="6" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#00796b"/></marker></defs>
+<line x1="310" y1="463" x2="520" y2="463" stroke="#00796b" stroke-width="2.4" marker-end="url(#am4)"/>
+<rect x="399.0" y="454.0" width="32" height="18" rx="6" fill="#ffffff" stroke="#e0e0e0"/>
+<text x="415.0" y="467.0" text-anchor="middle" font-size="10" fill="#00796b" font-weight="600">sub</text>
+<defs><marker id="am5" markerWidth="9" markerHeight="9" refX="6" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#00796b"/></marker></defs>
+<line x1="520" y1="428" x2="450" y2="428" stroke="#00796b" stroke-width="2.4" marker-end="url(#am5)"/>
+<defs><marker id="am6" markerWidth="9" markerHeight="9" refX="6" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#00796b"/></marker></defs>
+<line x1="370" y1="411" x2="315" y2="403" stroke="#00796b" stroke-width="2.4" marker-end="url(#am6)"/>
+<polyline points="540,510 580,370 630,390 680,500" fill="none" stroke="#00796b" stroke-width="2" opacity="0.5"/>
+</svg>
